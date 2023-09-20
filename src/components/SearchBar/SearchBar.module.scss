@@ -1,0 +1,41 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 80%; 
+    padding: 10px 20px; 
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  .dock-note-text {
+    font-size: 18px; 
+    font-weight: bold; 
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 191, 191);
+    width: 500px; 
+    border-radius: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1; 
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(196, 191, 191);
+  }
+  
+  .second-text {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
